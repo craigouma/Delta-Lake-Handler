@@ -36,14 +36,12 @@ FROM some_source;
 You can query a Delta Lake table within MindsDB as follows:
 
 ```sql
-Copy code
 SELECT *
 FROM delta_lake_db.test_table;
 Filtering by conditions:
 ```
 
 ```sql
-Copy code
 SELECT *
 FROM delta_lake_db.test_table
 WHERE column_name = 'value';
